@@ -2,7 +2,7 @@ package test;
 public class Asiento {
     String color;
     int precio;
-    int registro;
+    public int registro;
 
     public void cambiarColor(String nuevoColor) {
         if (nuevoColor.equalsIgnoreCase("rojo")
